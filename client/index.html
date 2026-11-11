@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SmartBook Pro is a modern multi-business booking platform. Discover trusted service providers, check real-time availability, and book appointments seamlessly.">
+  <title>SmartBook Pro — Your Time Matters. Book It Smarter.</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       Section 1: Navigation Bar
+       ======================================================================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top smartbook-navbar" id="mainNav">
+      <div class="container">
+        <!-- Brand Logo -->
+        <a class="navbar-brand" href="#hero">
+          <div class="brand-icon-wrapper">
+            <i class="bi bi-calendar2-check-fill"></i>
+          </div>
+          <span class="brand-text">SmartBook <span>Pro</span></span>
+        </a>
+
+        <!-- Mobile Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-4 text-dark"></i>
+        </button>
+
+        <!-- Navbar Links & Actions -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">Explore Businesses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#how-it-works">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#for-business">For Businesses</a>
+            </li>
+          </ul>
+
+          <div class="navbar-actions">
+            <a href="pages/login.html" class="btn btn-nav-login">Log In</a>
+            <a href="pages/register.html" class="btn btn-primary-custom">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         Section 2: Hero Section
+         ====================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- Left Column: Copy & CTAs -->
+          <div class="col-lg-6 hero-content">
+            <div class="hero-pill reveal-on-scroll">
+              <span class="hero-pill-badge">Next-Gen</span>
+              <span>All-In-One Service Booking Platform</span>
+            </div>
+
+            <h1 class="hero-title reveal-on-scroll delay-1">
+              Your Time Matters. Book It Smarter.
+            </h1>
+
+            <p class="hero-description reveal-on-scroll delay-2">
+              Discover trusted service providers, find the perfect appointment, and book online without unnecessary calls or waiting.
+            </p>
+
+            <div class="hero-buttons reveal-on-scroll delay-3">
+              <a href="#categories" class="btn btn-primary-custom btn-lg-custom">
+                <span>Explore Businesses</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="#for-business" class="btn btn-outline-custom btn-lg-custom">
+                <span>Start Your Business</span>
+              </a>
+            </div>
+
+            <div class="hero-trust-bar reveal-on-scroll delay-4">
+              <div class="trust-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span>Instant Confirmation</span>
+              </div>
+              <div class="trust-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span>24/7 Online Booking</span>
+              </div>
+              <div class="trust-item">
+                <i class="bi bi-check-circle-fill"></i>
+                <span>Zero Booking Fees</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: High-Fidelity Interactive Booking Preview -->
+          <div class="col-lg-6 hero-visual-wrapper reveal-on-scroll delay-2">
+            <div class="booking-preview-card">
+              <!-- Business Header -->
+              <div class="preview-header">
+                <div class="preview-business-info">
+                  <div class="preview-business-avatar">
+                    <i class="bi bi-scissors"></i>
+                  </div>
+                  <div class="preview-business-meta">
+                    <h5>Apex Styling Lounge</h5>
+                    <span class="preview-badge-verified">
+                      <i class="bi bi-patch-check-fill"></i> Verified Partner
+                    </span>
+                  </div>
+                </div>
+                <div class="text-end">
+                  <span class="badge bg-light text-dark border">
+                    <i class="bi bi-star-fill text-warning me-1"></i> 4.9 (120+)
+                  </span>
+                </div>
+              </div>
+
+              <!-- Selected Service Summary -->
+              <div class="preview-service-box">
+                <div>
+                  <div class="service-title">Executive Cut & Beard Grooming</div>
+                  <div class="service-duration">
+                    <i class="bi bi-clock me-1"></i> 45 mins • Senior Stylist
+                  </div>
+                </div>
+                <div class="service-price">$45.00</div>
+              </div>
+
+              <!-- Interactive Date Picker Strip -->
+              <span class="date-strip-label">Select Date:</span>
+              <div class="date-pills-row" role="tablist">
+                <div class="date-pill" tabindex="0">
+                  <span class="day">Mon</span>
+                  <span class="num">16</span>
+                </div>
+                <div class="date-pill active" tabindex="0">
+                  <span class="day">Tue</span>
+                  <span class="num">17</span>
+                </div>
+                <div class="date-pill" tabindex="0">
+                  <span class="day">Wed</span>
+                  <span class="num">18</span>
+                </div>
+                <div class="date-pill" tabindex="0">
+                  <span class="day">Thu</span>
+                  <span class="num">19</span>
+                </div>
+                <div class="date-pill" tabindex="0">
+                  <span class="day">Fri</span>
+                  <span class="num">20</span>
+                </div>
+              </div>
+
+              <!-- Time Slots Grid -->
+              <span class="date-strip-label">Available Time Slots:</span>
+              <div class="time-slots-grid">
+                <div class="time-slot">09:00 AM</div>
+                <div class="time-slot selected">10:30 AM</div>
+                <div class="time-slot">01:15 PM</div>
+                <div class="time-slot">03:45 PM</div>
+              </div>
+
+              <!-- Specialist Row -->
+              <div class="specialist-row">
+                <div class="specialist-info">
+                  <div class="specialist-avatar">AR</div>
+                  <div>
+                    <div class="specialist-name">Alex Rivera</div>
+                    <div class="specialist-role">Master Barber & Stylist</div>
+                  </div>
+                </div>
+                <span class="badge bg-white text-primary border">Selected</span>
+              </div>
+
+              <!-- Action Button inside card -->
+              <a href="pages/register.html" class="btn btn-primary-custom w-100">
+                <span>Confirm & Reserve Appointment</span>
+                <i class="bi bi-check2"></i>
+              </a>
+
+              <!-- Floating Confirmation Notification Widget -->
+              <div class="floating-success-card">
+                <div class="floating-icon-check">
+                  <i class="bi bi-check2"></i>
+                </div>
+                <div class="floating-text">
+                  <h6>Booking Confirmed!</h6>
+                  <span>Tue, 10:30 AM • Email Sent</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Section 3: Business Categories
+         ====================================================================== -->
+    <section class="section-padding bg-light-custom" id="categories">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">
+            <i class="bi bi-grid-fill"></i>
+            <span>Browse Categories</span>
+          </div>
+          <h2 class="section-title">Find the Right Service for You</h2>
+          <p class="section-subtitle">
+            Explore verified local businesses and specialists ready to take your appointment.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Category 1: Barber Shops -->
+          <div class="col-sm-6 col-lg-3 reveal-on-scroll delay-1">
+            <div class="category-card">
+              <div class="category-icon-wrapper">
+                <i class="bi bi-scissors"></i>
+              </div>
+              <h3 class="category-title">Barber Shops</h3>
+              <p class="category-description">
+                Haircuts, beard trims, grooming, and luxury hot towel shave experiences.
+              </p>
+              <a href="pages/explore.html?category=barber" class="category-link">
+                <span>View Salons</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 2: Beauty & Salons -->
+          <div class="col-sm-6 col-lg-3 reveal-on-scroll delay-2">
+            <div class="category-card">
+              <div class="category-icon-wrapper">
+                <i class="bi bi-flower1"></i>
+              </div>
+              <h3 class="category-title">Beauty & Salons</h3>
+              <p class="category-description">
+                Hair coloring, treatments, manicures, makeup artists, and bridal styling.
+              </p>
+              <a href="pages/explore.html?category=beauty" class="category-link">
+                <span>View Salons</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 3: Healthcare & Clinics -->
+          <div class="col-sm-6 col-lg-3 reveal-on-scroll delay-3">
+            <div class="category-card">
+              <div class="category-icon-wrapper">
+                <i class="bi bi-hospital"></i>
+              </div>
+              <h3 class="category-title">Healthcare & Clinics</h3>
+              <p class="category-description">
+                General consultations, specialists, physiotherapy, and routine health checks.
+              </p>
+              <a href="pages/explore.html?category=healthcare" class="category-link">
+                <span>View Clinics</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 4: Dental Clinics -->
+          <div class="col-sm-6 col-lg-3 reveal-on-scroll delay-4">
+            <div class="category-card">
+              <div class="category-icon-wrapper">
+                <i class="bi bi-heart-pulse"></i>
+              </div>
+              <h3 class="category-title">Dental Clinics</h3>
+              <p class="category-description">
+                Teeth cleaning, orthodontics, cosmetic dentistry, and dental emergencies.
+              </p>
+              <a href="pages/explore.html?category=dental" class="category-link">
+                <span>View Dentists</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 5: Fitness & Gyms -->
+          <div class="col-sm-6 col-lg-3 reveal-on-scroll delay-1">
+            <div class="category-card">
+              <div class="category-icon-wrapper">
+                <i class="bi bi-lightning-charge"></i>
+              </div>
+              <h3 class="category-title">Fitness & Gyms</h3>
+              <p class="category-description">
+                Personal trainers, pilates, yoga studios, HIIT sessions, and gym passes.
+              </p>
+              <a href="pages/explore.html?category=fitness" class="category-link">
+                <span>View Fitness</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 6: Spas & Wellness -->
+          <div class="col-sm-6 col-lg-3 reveal-on-scroll delay-2">
+            <div class="category-card">
+              <div class="category-icon-wrapper">
+                <i class="bi bi-droplet-half"></i>
+              </div>
+              <h3 class="category-title">Spas & Wellness</h3>
+              <p class="category-description">
+                Massage therapy, aromatherapy, sauna sessions, facials, and relaxation.
+              </p>
+              <a href="pages/explore.html?category=spa" class="category-link">
+                <span>View Spas</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 7: Home Services -->
+          <div class="col-sm-6 col-lg-3 reveal-on-scroll delay-3">
+            <div class="category-card">
+              <div class="category-icon-wrapper">
+                <i class="bi bi-house-gear"></i>
+              </div>
+              <h3 class="category-title">Home Services</h3>
+              <p class="category-description">
+                Appliance repair, electrical diagnostics, plumbing, and deep cleaning.
+              </p>
+              <a href="pages/explore.html?category=home" class="category-link">
+                <span>View Services</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Category 8: Other Services -->
+          <div class="col-sm-6 col-lg-3 reveal-on-scroll delay-4">
+            <div class="category-card">
+              <div class="category-icon-wrapper">
+                <i class="bi bi-stars"></i>
+              </div>
+              <h3 class="category-title">Other Services</h3>
+              <p class="category-description">
+                Pet grooming, legal & tax consultations, photography, and tutoring sessions.
+              </p>
+              <a href="pages/explore.html?category=other" class="category-link">
+                <span>View All</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Section 4: How It Works
+         ====================================================================== -->
+    <section class="section-padding how-it-works-section" id="how-it-works">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">
+            <i class="bi bi-diagram-3-fill"></i>
+            <span>Simple 3-Step Process</span>
+          </div>
+          <h2 class="section-title">Booking Made Simple</h2>
+          <p class="section-subtitle">
+            No phone calls, no waiting on hold. Reserve your next appointment in under two minutes.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Step 1 -->
+          <div class="col-md-4 reveal-on-scroll delay-1">
+            <div class="step-card">
+              <div class="step-number-badge">1</div>
+              <div class="step-icon-wrapper">
+                <i class="bi bi-search"></i>
+              </div>
+              <h3 class="step-title">Discover a Business</h3>
+              <p class="step-description">
+                Explore nearby verified professionals and businesses, view service listings, pricing, and authentic verified profiles.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="col-md-4 reveal-on-scroll delay-2">
+            <div class="step-card">
+              <div class="step-number-badge">2</div>
+              <div class="step-icon-wrapper">
+                <i class="bi bi-calendar3-range"></i>
+              </div>
+              <h3 class="step-title">Choose Your Service</h3>
+              <p class="step-description">
+                Select your desired service, pick your preferred specialist, and select a convenient available date and time slot.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="col-md-4 reveal-on-scroll delay-3">
+            <div class="step-card">
+              <div class="step-number-badge">3</div>
+              <div class="step-icon-wrapper">
+                <i class="bi bi-check2-circle"></i>
+              </div>
+              <h3 class="step-title">Book Your Appointment</h3>
+              <p class="step-description">
+                Confirm your reservation instantly, receive automated email confirmation, and get timely reminders before your visit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Section 5: Platform Features
+         ====================================================================== -->
+    <section class="section-padding bg-light-custom" id="features">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">
+            <i class="bi bi-cpu-fill"></i>
+            <span>Powerful Capabilities</span>
+          </div>
+          <h2 class="section-title">Everything You Need in One Platform</h2>
+          <p class="section-subtitle">
+            Built from the ground up to give customers a smooth booking experience and businesses complete management control.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Feature 1: Online Appointment Booking -->
+          <div class="col-md-6 col-lg-3 reveal-on-scroll delay-1">
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i class="bi bi-calendar-check"></i>
+              </div>
+              <h3 class="feature-title">Online Appointment Booking</h3>
+              <p class="feature-description">
+                Self-service appointment booking accessible anytime, from any computer, tablet, or mobile phone.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 2: Real-Time Availability -->
+          <div class="col-md-6 col-lg-3 reveal-on-scroll delay-2">
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i class="bi bi-clock-history"></i>
+              </div>
+              <h3 class="feature-title">Real-Time Availability</h3>
+              <p class="feature-description">
+                Synchronized calendar schedules eliminate double-bookings and display up-to-the-minute open slots.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 3: Automated Email Confirmations -->
+          <div class="col-md-6 col-lg-3 reveal-on-scroll delay-3">
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i class="bi bi-envelope-check"></i>
+              </div>
+              <h3 class="feature-title">Automated Email Confirmations</h3>
+              <p class="feature-description">
+                Instant confirmation emails with appointment details, location coordinates, and calendar invites.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 4: Appointment Reminders -->
+          <div class="col-md-6 col-lg-3 reveal-on-scroll delay-4">
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i class="bi bi-bell"></i>
+              </div>
+              <h3 class="feature-title">Appointment Reminders</h3>
+              <p class="feature-description">
+                Automated notification reminders keep customers prepared and drastically lower no-show rates.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 5: Queue Management -->
+          <div class="col-md-6 col-lg-3 reveal-on-scroll delay-1">
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3 class="feature-title">Queue Management</h3>
+              <p class="feature-description">
+                Organized client order and real-time status tracking reduce in-lobby waiting time and crowding.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 6: Customer Booking History -->
+          <div class="col-md-6 col-lg-3 reveal-on-scroll delay-2">
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i class="bi bi-journal-text"></i>
+              </div>
+              <h3 class="feature-title">Customer Booking History</h3>
+              <p class="feature-description">
+                Customers can review past appointments, track upcoming sessions, or rebook favorite services.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 7: Business Management -->
+          <div class="col-md-6 col-lg-3 reveal-on-scroll delay-3">
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i class="bi bi-sliders"></i>
+              </div>
+              <h3 class="feature-title">Business Management</h3>
+              <p class="feature-description">
+                Configure service menus, assign staff schedules, establish operational hours, and manage clients.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 8: Business Analytics -->
+          <div class="col-md-6 col-lg-3 reveal-on-scroll delay-4">
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <h3 class="feature-title">Business Analytics</h3>
+              <p class="feature-description">
+                Clear insights into booking volumes, peak schedule hours, staff performance, and revenue trends.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Section 6: For Business Owners
+         ====================================================================== -->
+    <section class="section-padding" id="for-business">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- Left Column: Business Benefits -->
+          <div class="col-lg-6 reveal-on-scroll">
+            <div class="section-badge">
+              <i class="bi bi-briefcase-fill"></i>
+              <span>For Service Providers</span>
+            </div>
+
+            <h2 class="section-title">
+              Grow Your Business. Simplify Your Management.
+            </h2>
+
+            <p class="section-subtitle mb-4">
+              Stop juggling manual paper logs and messy messaging apps. SmartBook Pro gives your business a professional booking portal and an integrated command center.
+            </p>
+
+            <ul class="business-benefit-list">
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Manage daily appointments:</strong> View, accept, reschedule, or cancel bookings in one intuitive dashboard.</div>
+              </li>
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Create and manage services:</strong> Customize service categories, descriptions, durations, and pricing structures.</div>
+              </li>
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Set staff schedules:</strong> Assign staff members to specific services, manage shifts, and handle vacation breaks.</div>
+              </li>
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Manage customer records:</strong> Keep track of customer contact information, preferences, and booking histories.</div>
+              </li>
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Track business performance:</strong> Understand capacity utilization, peak booking hours, and service demand.</div>
+              </li>
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Reduce scheduling conflicts:</strong> Real-time validation completely eliminates double-booking errors.</div>
+              </li>
+            </ul>
+
+            <div class="pt-2">
+              <a href="pages/register.html?type=business" class="btn btn-primary-custom btn-lg-custom">
+                <span>Register Your Business</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Business Dashboard Preview Mockup -->
+          <div class="col-lg-6 reveal-on-scroll delay-2">
+            <div class="dashboard-preview-card">
+              <!-- Top bar -->
+              <div class="dashboard-mockup-topbar">
+                <div class="dashboard-mockup-title">
+                  <i class="bi bi-speedometer2"></i>
+                  <span>Business Console — Apex Studio</span>
+                </div>
+                <div class="dashboard-mockup-controls">
+                  <span class="mockup-dot"></span>
+                  <span class="mockup-dot"></span>
+                  <span class="mockup-dot"></span>
+                </div>
+              </div>
+
+              <!-- Dashboard Body -->
+              <div class="dashboard-mockup-body">
+                <!-- Metrics Row -->
+                <div class="stats-grid-row">
+                  <div class="stat-metric-card">
+                    <span class="stat-metric-label">Today's Bookings</span>
+                    <div class="stat-metric-value">16</div>
+                  </div>
+                  <div class="stat-metric-card">
+                    <span class="stat-metric-label">Active Staff</span>
+                    <div class="stat-metric-value">4 on Duty</div>
+                  </div>
+                  <div class="stat-metric-card">
+                    <span class="stat-metric-label">Capacity</span>
+                    <div class="stat-metric-value">94%</div>
+                  </div>
+                </div>
+
+                <!-- Schedule List -->
+                <div class="appointments-preview-list">
+                  <div class="preview-list-header">
+                    <span>Upcoming Schedule</span>
+                    <span>Status</span>
+                  </div>
+
+                  <div class="appointment-preview-item">
+                    <div class="d-flex align-items-center">
+                      <span class="appointment-time-badge">09:00 AM</span>
+                      <div class="appointment-info">
+                        <h6>James Wilson</h6>
+                        <span>Haircut & Beard Trim • Alex R.</span>
+                      </div>
+                    </div>
+                    <span class="badge-status badge-status-completed">Completed</span>
+                  </div>
+
+                  <div class="appointment-preview-item">
+                    <div class="d-flex align-items-center">
+                      <span class="appointment-time-badge">10:30 AM</span>
+                      <div class="appointment-info">
+                        <h6>Marcus Vance</h6>
+                        <span>Executive Styling • Alex R.</span>
+                      </div>
+                    </div>
+                    <span class="badge-status badge-status-active">In Progress</span>
+                  </div>
+
+                  <div class="appointment-preview-item">
+                    <div class="d-flex align-items-center">
+                      <span class="appointment-time-badge">01:15 PM</span>
+                      <div class="appointment-info">
+                        <h6>David Chen</h6>
+                        <span>Skin Fade & Wash • Sarah K.</span>
+                      </div>
+                    </div>
+                    <span class="badge-status badge-status-upcoming">Confirmed</span>
+                  </div>
+                </div>
+
+                <!-- Bottom Quick Actions -->
+                <div class="d-flex justify-content-between align-items-center mt-3 pt-2">
+                  <span class="text-muted small">
+                    <i class="bi bi-arrow-repeat me-1"></i> Live Schedule Sync
+                  </span>
+                  <span class="badge bg-light text-primary border">Admin Portal Ready</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Section 7: Better Customer Experience
+         ====================================================================== -->
+    <section class="section-padding bg-light-custom" id="customer-experience">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <!-- Left Column: Visual Representation of Customer Card -->
+          <div class="col-lg-6 order-2 order-lg-1 reveal-on-scroll">
+            <div class="customer-experience-card">
+              <div class="customer-card-header">
+                <div>
+                  <h5 class="fw-bold">My Active Bookings</h5>
+                  <span class="text-muted small">Customer Portal Preview</span>
+                </div>
+                <span class="badge bg-primary-subtle text-primary border border-primary-subtle">
+                  1 Active Booking
+                </span>
+              </div>
+
+              <!-- Ticket Box -->
+              <div class="booking-ticket">
+                <div class="ticket-header">
+                  <div>
+                    <h6 class="mb-0 fw-bold">Dental Checkup & Cleaning</h6>
+                    <span class="text-muted small">Metro Smiles Dental Clinic</span>
+                  </div>
+                  <span class="badge-status badge-status-completed">
+                    <i class="bi bi-check-circle-fill me-1"></i> Confirmed
+                  </span>
+                </div>
+
+                <div class="ticket-details">
+                  <div class="ticket-detail-item">
+                    <span>Date & Time</span>
+                    <strong>Thursday, Oct 24 • 02:00 PM</strong>
+                  </div>
+                  <div class="ticket-detail-item">
+                    <span>Practitioner</span>
+                    <strong>Dr. Emily Vance</strong>
+                  </div>
+                  <div class="ticket-detail-item">
+                    <span>Location</span>
+                    <strong>Suite 402, Medical Plaza</strong>
+                  </div>
+                  <div class="ticket-detail-item">
+                    <span>Reference ID</span>
+                    <strong>#SB-84920</strong>
+                  </div>
+                </div>
+
+                <div class="ticket-actions">
+                  <button class="btn btn-sm btn-outline-custom" type="button">
+                    <i class="bi bi-arrow-clockwise me-1"></i> Reschedule
+                  </button>
+                  <button class="btn btn-sm btn-outline-custom text-danger" type="button">
+                    <i class="bi bi-x-circle me-1"></i> Cancel
+                  </button>
+                </div>
+              </div>
+
+              <!-- Notification Alert Preview -->
+              <div class="notification-pill">
+                <div class="notification-icon">
+                  <i class="bi bi-bell-fill"></i>
+                </div>
+                <div class="notification-text">
+                  <p>Appointment Reminder: 2 Hours Remaining</p>
+                  <span>We look forward to seeing you at Metro Smiles Dental Clinic.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Customer Benefits Explanation -->
+          <div class="col-lg-6 order-1 order-lg-2 reveal-on-scroll delay-2">
+            <div class="section-badge">
+              <i class="bi bi-person-heart"></i>
+              <span>For Customers</span>
+            </div>
+
+            <h2 class="section-title">
+              A Smooth, Stress-Free Booking Experience
+            </h2>
+
+            <p class="section-subtitle mb-4">
+              Say goodbye to awkward calls, back-and-forth messaging, and arriving only to sit in an unexpected line.
+            </p>
+
+            <ul class="business-benefit-list">
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Save time:</strong> Book directly from your smartphone or computer in seconds without placing a phone call.</div>
+              </li>
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Avoid unnecessary waiting:</strong> Arrive knowing your slot is reserved, minimizing waiting room downtime.</div>
+              </li>
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Find suitable service providers:</strong> Compare service options, reviews, and specialists in your community.</div>
+              </li>
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Choose convenient appointment times:</strong> View available hours and select what fits your personal schedule.</div>
+              </li>
+              <li class="business-benefit-item">
+                <div class="benefit-check-icon"><i class="bi bi-check-lg"></i></div>
+                <div class="benefit-text"><strong>Manage bookings easily:</strong> Check status, cancel, or reschedule your appointments through your customer account.</div>
+              </li>
+            </ul>
+
+            <div class="pt-2">
+              <a href="#categories" class="btn btn-primary-custom">
+                <span>Explore Services Near You</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Section 8: Call to Action (CTA)
+         ====================================================================== -->
+    <section class="section-padding" id="cta">
+      <div class="container">
+        <div class="cta-wrapper reveal-on-scroll">
+          <div class="cta-content">
+            <h2 class="cta-title">Ready to Make Booking Easier?</h2>
+            <p class="cta-description">
+              Join SmartBook Pro and experience a smarter way to manage appointments. Whether you are an individual customer or a growing business, we have you covered.
+            </p>
+            <div class="cta-buttons">
+              <a href="pages/register.html" class="btn btn-primary-custom btn-lg-custom">
+                <span>Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+              <a href="#categories" class="btn btn-outline-light-custom btn-lg-custom">
+                <span>Explore Businesses</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         Section 9: Frequently Asked Questions (FAQ)
+         ====================================================================== -->
+    <section class="section-padding bg-light-custom" id="faq">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-badge">
+            <i class="bi bi-question-circle-fill"></i>
+            <span>Got Questions?</span>
+          </div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Find answers to common questions about using SmartBook Pro as a customer or business owner.
+          </p>
+        </div>
+
+        <div class="accordion accordion-custom reveal-on-scroll delay-1" id="faqAccordion">
+          <!-- FAQ 1 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                1. What is SmartBook Pro?
+              </button>
+            </h3>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                SmartBook Pro is a multi-business service booking platform designed to connect customers with local service providers. Customers can discover businesses, browse services, check real-time availability, and book appointments online. Business owners can manage their schedules, services, staff, and customer bookings in a centralized system.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2. How can I book an appointment?
+              </button>
+            </h3>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Booking an appointment is straightforward: browse or search for a business by category or location, select the specific service and practitioner you need, choose an available date and time slot from the live calendar, and confirm your reservation.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3. Can I cancel or reschedule my booking?
+              </button>
+            </h3>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes. Customers can view their active appointments inside their account portal or via their booking confirmation link and request a reschedule or cancellation in accordance with the individual business's cancellation policies.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                4. Can business owners register?
+              </button>
+            </h3>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes. Service providers such as barbers, salons, wellness spas, clinics, fitness trainers, and home technicians can register their business on SmartBook Pro. Once registered, businesses will have dedicated dashboard tools to set up services, staff schedules, and manage incoming customer appointments.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                5. How does appointment availability work?
+              </button>
+            </h3>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Appointment availability is generated in real time based on each business's operational hours, staff shift schedules, and currently confirmed bookings. As soon as a slot is booked, it is instantly updated to prevent double bookings.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                6. Will I receive booking confirmation?
+              </button>
+            </h3>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Yes. Once an appointment is booked, SmartBook Pro sends an automated email confirmation containing appointment details, service duration, location information, and calendar integration links. Automated reminder notifications are also scheduled prior to the visit.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                7. Is SmartBook Pro free to use?
+              </button>
+            </h3>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                For customers, searching and booking appointments on SmartBook Pro is free. For business owners, flexible onboarding tiers and management plans will be available as backend registration and administration modules roll out.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Section 10: Footer
+       ======================================================================== -->
+  <footer class="smartbook-footer">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Col 1: Brand & Bio -->
+        <div class="col-lg-4 col-md-6 footer-brand">
+          <a class="navbar-brand text-white" href="#hero">
+            <div class="brand-icon-wrapper">
+              <i class="bi bi-calendar2-check-fill"></i>
+            </div>
+            <span class="brand-text">SmartBook <span class="text-primary">Pro</span></span>
+          </a>
+          <p class="footer-description">
+            The modern booking and appointment scheduling platform empowering local businesses and simplifying appointment management for everyone.
+          </p>
+          <div class="footer-social-links">
+            <a href="#" class="social-icon-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon-btn" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-icon-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-icon-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Platform Links -->
+        <div class="col-lg-2 col-md-6 col-6">
+          <h4 class="footer-col-title">Platform</h4>
+          <ul class="footer-links-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#categories">Explore Businesses</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Customer Links -->
+        <div class="col-lg-2 col-md-6 col-6">
+          <h4 class="footer-col-title">Customers</h4>
+          <ul class="footer-links-list">
+            <li><a href="#categories">Search Services</a></li>
+            <li><a href="pages/login.html">Customer Sign In</a></li>
+            <li><a href="pages/register.html">Create Account</a></li>
+            <li><a href="#customer-experience">Booking Guide</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Business Links -->
+        <div class="col-lg-2 col-md-6 col-6">
+          <h4 class="footer-col-title">For Businesses</h4>
+          <ul class="footer-links-list">
+            <li><a href="#for-business">Business Portal</a></li>
+            <li><a href="pages/register.html?type=business">Register Business</a></li>
+            <li><a href="#features">Management Tools</a></li>
+            <li><a href="#for-business">Staff Scheduling</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 5: Contact Information -->
+        <div class="col-lg-2 col-md-6 col-6">
+          <h4 class="footer-col-title">Contact</h4>
+          <div class="footer-contact-item">
+            <i class="bi bi-envelope"></i>
+            <span>support@smartbookpro.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-geo-alt"></i>
+            <span>Global Online Service Platform</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-clock"></i>
+            <span>Mon - Fri: 9AM - 6PM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> SmartBook Pro. All rights reserved.
+        </div>
+        <div class="footer-legal-links">
+          <a href="pages/privacy.html">Privacy Policy</a>
+          <a href="pages/terms.html">Terms of Service</a>
+          <a href="pages/security.html">Security</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5 Bundle JS (Includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
